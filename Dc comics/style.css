@@ -1,0 +1,69 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.banner {
+  width: 96%;
+  height: 50vh;
+  margin: 0% 2%;
+}
+.banner > img {
+  width: 100%;
+  height: 50vh;
+}
+article {
+  width: 96%;
+  height: 20vh;
+  margin: 1% 2%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0px;
+}
+section {
+  width: 60vw;
+  min-height: 100vh;
+  margin: 10px auto;
+  text-align: center;
+}
+section > nav > button {
+  height: 5%;
+  padding: 1%;
+  border-radius: 7px;
+  color: white;
+  background-color: rgb(0, 162, 255);
+  border: none;
+}
+section > nav > button:hover {
+  background-color: rgb(1, 119, 187);
+}
+.comic {
+  width: 100%;
+  height: 40vh;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 5px;
+}
+.col {
+  height: 100%;
+}
+.col > p {
+  text-align: left;
+}
+.comic1 {
+  width: 100%;
+  height: 40vh;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 5px;
+}
+footer{
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
